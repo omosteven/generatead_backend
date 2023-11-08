@@ -31,6 +31,6 @@ UsersSchema.plugin(timeStamps, {
   updatedAt: "updated_at",
 });
 
-const UsersModel = mongoose.model("Users2", UsersSchema);
+const UsersModel = mongoose.model("Users", UsersSchema);
 
 module.exports = UsersModel;
