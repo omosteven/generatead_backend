@@ -40,7 +40,6 @@ class AuthController {
         });
       })
       .catch((e) => {
-
         try {
           if (e?.keyValue?.email) {
             return res.status(403).json({
