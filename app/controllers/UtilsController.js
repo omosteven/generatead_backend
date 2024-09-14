@@ -152,7 +152,7 @@ class Utils {
         });
       }
 
-      const newData = await new SubscribersModel({
+      const newData = await new ThirdPartyModel({
         email,
         firstName,
         lastName,
